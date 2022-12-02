@@ -6,8 +6,7 @@ Install the following packages:
 ```
 pip install -r requirements.txt
 ```
-The `data` folder contains the following files:
-* `tmdb_movies_data.csv`: dataset with 10,000 movies from Tmdb
+The `data` folder contains `tmdb_movies_data.csv` dataset with 10,000 movies downloaded from [Kaggle](https://www.kaggle.com/datasets/juzershakir/tmdb-movies-dataset)
 
 ## ETL
 Run the `etl.py` file to clean up the dataset. Generates a clean csv `movies.csv`, needed by the main program.
